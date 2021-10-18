@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="12" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-05T12:25:54 IST" name="Suite" finished-at="2021-08-05T12:25:54 IST" duration-ms="180">
+    <groups>
+      <group name="Smoke">
+        <method signature="FirstTe.Testone()[pri:0, instance:testn.FirstTe@4b0b0854]" name="Testone" class="testn.FirstTe"/>
+        <method signature="Thirdte.thirdclasss()[pri:0, instance:testn.Thirdte@64cd705f]" name="thirdclasss" class="testn.Thirdte"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-08-05T12:25:54 IST" name="Clo" finished-at="2021-08-05T12:25:54 IST" duration-ms="82">
+      <class name="testn.Secondte">
+        <test-method is-config="true" signature="besu()[pri:0, instance:testn.Secondte@6973b51b]" started-at="2021-08-05T12:25:54 IST" name="besu" finished-at="2021-08-05T12:25:54 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- besu -->
+        <test-method is-config="true" signature="before()[pri:0, instance:testn.Secondte@6973b51b]" started-at="2021-08-05T12:25:54 IST" name="before" finished-at="2021-08-05T12:25:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="fourthna()[pri:0, instance:testn.Secondte@6973b51b]" started-at="2021-08-05T12:25:54 IST" name="fourthna" finished-at="2021-08-05T12:25:54 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthna -->
+      </class> <!-- testn.Secondte -->
+      <class name="testn.FirstTe">
+        <test-method is-config="true" signature="afsu()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="afsu" finished-at="2021-08-05T12:25:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsu -->
+      </class> <!-- testn.FirstTe -->
+    </test> <!-- Clo -->
+    <test started-at="2021-08-05T12:25:54 IST" name="Mlo" finished-at="2021-08-05T12:25:54 IST" duration-ms="180">
+      <class name="testn.Thirdte">
+        <test-method signature="thirdclass()[pri:0, instance:testn.Thirdte@64cd705f]" started-at="2021-08-05T12:25:54 IST" name="thirdclass" finished-at="2021-08-05T12:25:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdclass -->
+        <test-method signature="thirdclasss()[pri:0, instance:testn.Thirdte@64cd705f]" started-at="2021-08-05T12:25:54 IST" name="thirdclasss" finished-at="2021-08-05T12:25:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdclasss -->
+      </class> <!-- testn.Thirdte -->
+      <class name="testn.FouthData">
+        <test-method signature="testfour(java.lang.String,java.lang.String)[pri:0, instance:testn.FouthData@9225652]" started-at="2021-08-05T12:25:54 IST" name="testfour" data-provider="getData" finished-at="2021-08-05T12:25:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfour -->
+        <test-method signature="testfour(java.lang.String,java.lang.String)[pri:0, instance:testn.FouthData@9225652]" started-at="2021-08-05T12:25:54 IST" name="testfour" data-provider="getData" finished-at="2021-08-05T12:25:54 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2nd user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfour -->
+        <test-method signature="testfour(java.lang.String,java.lang.String)[pri:0, instance:testn.FouthData@9225652]" started-at="2021-08-05T12:25:54 IST" name="testfour" data-provider="getData" finished-at="2021-08-05T12:25:54 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rd user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfour -->
+      </class> <!-- testn.FouthData -->
+      <class name="testn.FirstTe">
+        <test-method is-config="true" signature="BefCl()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="BefCl" finished-at="2021-08-05T12:25:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BefCl -->
+        <test-method is-config="true" signature="bemet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="bemet" finished-at="2021-08-05T12:25:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bemet -->
+        <test-method signature="Testone()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="Testone" finished-at="2021-08-05T12:25:54 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testone -->
+        <test-method is-config="true" signature="afmet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="afmet" finished-at="2021-08-05T12:25:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmet -->
+        <test-method is-config="true" signature="bemet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="bemet" finished-at="2021-08-05T12:25:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bemet -->
+        <test-method signature="Testtwo(java.lang.String,java.lang.String)[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="Testtwo" finished-at="2021-08-05T12:25:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[haha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testtwo -->
+        <test-method is-config="true" signature="afmet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="afmet" finished-at="2021-08-05T12:25:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmet -->
+        <test-method is-config="true" signature="bemet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="bemet" finished-at="2021-08-05T12:25:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bemet -->
+        <test-method signature="Atest()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="Atest" finished-at="2021-08-05T12:25:54 IST" depends-on-methods="testn.FirstTe.Testone" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Atest -->
+        <test-method is-config="true" signature="afmet()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="afmet" finished-at="2021-08-05T12:25:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afmet -->
+        <test-method is-config="true" signature="AfCl()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="AfCl" finished-at="2021-08-05T12:25:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfCl -->
+        <test-method is-config="true" signature="After()[pri:0, instance:testn.FirstTe@4b0b0854]" started-at="2021-08-05T12:25:54 IST" name="After" finished-at="2021-08-05T12:25:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After -->
+      </class> <!-- testn.FirstTe -->
+    </test> <!-- Mlo -->
+  </suite> <!-- Suite -->
+</testng-results>

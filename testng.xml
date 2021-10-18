@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" thread-count="2">
+	<listeners>
+		<listener class-name = "testn.Listener"/>
+	</listeners>
+  <test thread-count="5" name="Mlo">
+    <classes>
+      <class name="testn.FirstTe">
+      
+      
+      <parameter name ="tes" value = "haha"/>
+      <parameter name = "URL" value="jk"/>
+      
+      
+      
+      </class>
+      <class name = "testn.Thirdte"/>
+      <class name = "testn.FouthData"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name = "Clo">
+  <classes>
+  
+  	<class name = "testn.Secondte">
+  	<methods>
+  	<exclude name = "fourthka"/>
+  	
+  	<exclude name = "fourth.*"/>
+  	
+  	<include name = "fourthna"/>
+  	
+  	
+  	
+  	
+  	
+  	
+  	</methods>
+  	</class>>
+  </classes>
+  
+  </test>
+  
+</suite> <!-- Suite -->
